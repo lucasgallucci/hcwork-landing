@@ -1,0 +1,286 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900|Montserrat:300,400,500,700");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+.gradient-blue, nav.back {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#55bcba+0,016d93+100 */
+  background: #55bcba;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #55bcba 0%, #016d93 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #55bcba 0%, #016d93 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #55bcba 0%, #016d93 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55bcba', endColorstr='#016d93',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.gradient-birpin {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff9900+0,fd151b+100 */
+  background: #ff9900;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ff9900 0%, #fd151b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ff9900 0%, #fd151b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ff9900 0%, #fd151b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9900', endColorstr='#fd151b',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.gradient-hcwork, section.productos.hcwork {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2888ad+1,2888ad+1,34a3c2+100 */
+  background: #2888ad;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #2888ad 1%, #2888ad 1%, #34a3c2 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #2888ad 1%, #2888ad 1%, #34a3c2 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #2888ad 1%, #2888ad 1%, #34a3c2 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2888ad', endColorstr='#34a3c2',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.gradient-hcpay, section.suscribite {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eb605d+0,ef7e7f+100 */
+  background: #eb605d;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #eb605d 0%, #ef7e7f 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #eb605d 0%, #ef7e7f 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #eb605d 0%, #ef7e7f 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb605d', endColorstr='#ef7e7f',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+.gradient-hcwork2, header {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2789ad+0,ee7e80+60,eb605d+100 */
+  background: #2789ad;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #2789ad 0%, #ee7e80 60%, #eb605d 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #2789ad 0%, #ee7e80 60%, #eb605d 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #2789ad 0%, #ee7e80 60%, #eb605d 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2789ad', endColorstr='#eb605d',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+body {
+  font-family: roboto;
+  font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: Montserrat; }
+
+a {
+  font-family: roboto;
+  font-weight: 300; }
+
+nav {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  padding: 10px 0;
+  width: 100%;
+  transition: 1s;
+  background: transparent;
+  z-index: 999999; }
+  nav .content {
+    display: flex;
+    justify-content: space-beetwen;
+    align-items: center; }
+    nav .content .iso img {
+      max-width: 150px; }
+    nav .content .menu {
+      width: 100%; }
+      nav .content .menu ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end; }
+        nav .content .menu ul li {
+          margin: 0 10px; }
+          nav .content .menu ul li a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase; }
+  @media (max-width: 700px) {
+    nav .content .iso img {
+      max-width: 200px; }
+    nav .content .menu {
+      display: none; } }
+
+header {
+  padding: 50px 0 0 0;
+  position: relative; }
+  header h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: -2px; }
+    header h1 .big {
+      font-weight: 900;
+      text-transform: uppercase; }
+  header .separador {
+    height: 4px;
+    width: 100px;
+    background: white;
+    margin: 40px 0; }
+  header .pattern {
+    position: relative;
+    top: 50px; }
+  @media (max-width: 1000px) {
+    header {
+      height: 600px; }
+      header .logo {
+        transform: translateY(-50%) translateX(-25%);
+        left: 25%; }
+        header .logo h1 {
+          font-size: 40px;
+          letter-spacing: -1px; } }
+  @media (max-width: 600px) {
+    header {
+      height: 600px; }
+      header .logo {
+        transform: translateY(-50%) translateX(-25%);
+        left: 25%; }
+        header .logo h1 {
+          font-size: 30px;
+          letter-spacing: 0px; } }
+
+.margintop30 {
+  margin-top: 30px; }
+
+section.about {
+  padding: 60px 0; }
+  section.about .copy {
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 300; }
+  section.about ul {
+    list-style: none; }
+    section.about ul li {
+      margin-bottom: 30px;
+      display: flex; }
+      section.about ul li img {
+        max-width: 80px;
+        margin-right: 10px; }
+section.copy1, section.selfservice {
+  background: url(../imagenes/w1.jpg);
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: 5px solid #55bcba; }
+  section.copy1 .content, section.selfservice .content {
+    padding: 75px 0;
+    background: rgba(0, 0, 0, 0.3); }
+    section.copy1 .content p, section.selfservice .content p {
+      max-width: 900px;
+      margin: auto;
+      text-transform: uppercase;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+    section.copy1 .content .big, section.selfservice .content .big {
+      font-size: 25px;
+      line-height: 30px;
+      font-weight: 300;
+      color: white;
+      font-family: Montserrat; }
+section#selfservice {
+  background: url(../imagenes/selfservice.jpg);
+  color: white;
+  background-size: cover;
+  background-attachment: fixed; }
+  section#selfservice .content {
+    padding: 75px 0;
+    background: rgba(0, 0, 0, 0.3); }
+    section#selfservice .content p {
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 300;
+      color: white;
+      text-transform: initial;
+      font-family: Montserrat; }
+section.suscribite {
+  padding: 70px 0;
+  color: white; }
+section.productos {
+  padding: 50px 0; }
+  section.productos img {
+    width: 100%;
+    max-width: 800px;
+    margin: auto; }
+  section.productos h2 {
+    color: white; }
+  section.productos ul li {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    list-style: none; }
+    section.productos ul li span {
+      margin-right: 10px; }
+  @media (max-width: 600px) {
+    section.productos .big {
+      font-size: 20px;
+      line-height: 25px; }
+    section.productos .productos-cards article ul li {
+      font-size: 12px; } }
+section.servicios {
+  padding: 100px 0; }
+  section.servicios p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300; }
+  section.servicios ul {
+    list-style: none;
+    padding: 0; }
+    section.servicios ul li {
+      margin: 10px 0; }
+      section.servicios ul li span {
+        margin-right: 10px; }
+
+footer {
+  background: #4d4d4d;
+  padding: 10px 0;
+  color: white; }
+  footer address {
+    color: white; }
+    footer address a {
+      color: white; }
+  footer .social {
+    display: flex;
+    padding: 0;
+    margin: 40px 0;
+    align-items: center;
+    justify-content: center; }
+    footer .social li {
+      list-style: none;
+      padding: 0 20px;
+      text-align: center;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      footer .social li a {
+        color: white;
+        transition: .5s; }
+        footer .social li a span {
+          font-size: 30px; }
+        footer .social li a:hover {
+          transform: scale(1.2); }
+  footer .tyc {
+    display: flex;
+    padding: 0;
+    margin: 40px 0;
+    align-items: center;
+    list-style: none;
+    justify-content: center; }
+    footer .tyc li {
+      margin: 0 10px;
+      color: white; }
+      footer .tyc li a {
+        color: white; }
+
+/*# sourceMappingURL=style.css.map */
